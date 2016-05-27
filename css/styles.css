@@ -3,10 +3,13 @@
     border: black solid 5px;
 }
 
+.featured {
+	text-align: center;
+}
+
 .container {
 	max-width: 1000px;
 }
-
 /*448px hide logo*/
 @media (max-width: 448px) {
 	.logo {
@@ -20,6 +23,7 @@
 	.name-title {
 		text-align: left;
 		width: 100% !important;
+		background: url("../img/udacity.png") no-repeat bottom right;
 	}
 
 	.name {
