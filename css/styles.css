@@ -3,57 +3,60 @@
     border: black solid 5px;
 }
 
+article {
+    max-width: 400px;
+}
+
 .featured {
-	text-align: center;
+    text-align: center;
 }
 
 .container {
-	max-width: 1000px;
+    max-width: 1000px;
 }
 /*448px hide logo*/
 @media (max-width: 448px) {
-	.logo {
-		display: none;
-	}
-	hr {
-		border: none;
-		height: 1px;
-	}
+    .logo {
+        display: none;
+    }
 
-	.name-title {
-		text-align: left;
-		width: 100% !important;
-		background: url("../img/udacity.png") no-repeat bottom right;
-	}
+    hr {
+        border: none;
+        height: 1px;
+    }
 
-	.name {
-		font-size: 46px;
-	}
+    .name-title {
+        text-align: left;
+        width: 100% !important;
+    }
 
-	.title {
+    .name {
+        font-size: 46px;
+    }
 
-	}
+    .title {
+    }
 }
 
 .roboto {
-	font-family: roboto;
+    font-family: roboto;
 }
 
 hr {
-	border: none;
-	height: 3px;
-	background-color: #BCBBBB;
-	color: #BCBBBB;
+    border: none;
+    height: 3px;
+    background-color: #BCBBBB;
+    color: #BCBBBB;
 }
 
 .orange-text {
-	color: #F8981C;
+    color: #F8981C;
 }
 
 .gray-text {
-	color: #BCBBBB;
+    color: #BCBBBB;
 }
 
-.dark-gray-text {
-	color: #747704;
+.green-text {
+    color: #747704;
 }
