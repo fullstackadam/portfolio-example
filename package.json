@@ -1,0 +1,28 @@
+{
+  "name": "udacity_portfolio_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-image-resize": "^0.8.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obelesk411/udacity_portfolio_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obelesk411/udacity_portfolio_project/issues"
+  },
+  "homepage": "https://github.com/obelesk411/udacity_portfolio_project"
+}
