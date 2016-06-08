@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
 	cleanCSS = require('gulp-clean-css'),
-	imageResize = require('gulp-image-resize');
+	imageResize = require('gulp-image-resize'),
   prettify = require('gulp-prettify');
 
 gulp.task('minify-css', function(){
