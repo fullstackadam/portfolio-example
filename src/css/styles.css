@@ -1,0 +1,59 @@
+.featured img {
+    max-width: 100%;
+    border: black solid 5px;
+}
+
+article {
+    max-width: 400px;
+}
+
+.featured {
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+}
+/*448px hide logo*/
+@media (max-width: 448px) {
+    .logo {
+        display: none;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+    }
+
+    .name-title {
+        text-align: left;
+        width: 100% !important;
+    }
+
+    .name {
+        font-size: 46px;
+    }
+}
+
+.roboto {
+    font-family: roboto;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #bcbbbb;
+    color: #bcbbbb;
+}
+
+.orange-text {
+    color: #f8981c;
+}
+
+.gray-text {
+    color: #bcbbbb;
+}
+
+.green-text {
+    color: #747704;
+}
